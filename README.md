@@ -1,24 +1,19 @@
 # Shirin Rajabpour — Personal website
 
-Static portfolio site for **GitHub Pages**.
+Academic / professional portfolio for **GitHub Pages**.
 
-Live URL (after you enable Pages): https://srajp-del.github.io
+## Contents
 
-## Local preview
+- `index.html` — site
+- `styles.css` / `script.js` — design & interactions
+- `assets/shirin.jpg` — profile photo
+- `assets/Shirin-Rajabpour-CV.pdf` — downloadable CV
 
-Open `index.html` in a browser, or from this folder run:
+## Publish
 
-```bash
-npx --yes serve .
-```
+1. Put files at the **repo root** (not inside a nested folder).
+2. Push to GitHub.
+3. **Settings → Pages** → Deploy from branch → `main` / `/` (root).
 
-## Publish on GitHub Pages
-
-1. Create a new GitHub repository named exactly **`srajp-del.github.io`** (must match your username).
-2. Push this folder to that repo’s `main` branch.
-3. In the repo: **Settings → Pages → Build and deployment**
-   - Source: **Deploy from a branch**
-   - Branch: **main** / **/** (root)
-4. Wait a minute, then visit https://srajp-del.github.io
-
-If your GitHub username is different, rename the repo to `YOUR_USERNAME.github.io` and update the GitHub link in `index.html`.
+User-site URL (if repo is named `srajp-del.github.io`): https://srajp-del.github.io  
+Project-site URL example: https://srajp-del.github.io/D-Git-code-srajp-del.github.io/
