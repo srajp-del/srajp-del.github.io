@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Shirin Rajabpour — Biomedical engineer specializing in clinical AI, neuroimaging, and biosignal analysis. Open to PhD and research roles." />
-  <title>Shirin Rajabpour | Biomedical Engineering & Clinical AI</title>
+  <meta name="description" content="Shirin Rajabpour — Biomedical engineer focused on clinical AI, neuroimaging, and biosignal analysis." />
+  <title>Shirin Rajabpour</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&display=swap" rel="stylesheet" />
@@ -17,11 +17,10 @@
     <a class="logo" href="#top">Shirin Rajabpour</a>
     <nav class="nav" aria-label="Primary">
       <a href="#about">About</a>
-      <a href="#research">Research</a>
-      <a href="#experience">Experience</a>
+      <a href="#resume">Resume</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
-      <a class="nav-cta" href="assets/Shirin-Rajabpour-CV.pdf" download>Download CV</a>
+      <a class="nav-cta" href="assets/Shirin-Rajabpour-CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
     </nav>
     <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
       <span></span><span></span>
@@ -30,28 +29,34 @@
 
   <main id="main">
     <section class="hero" id="top">
+      <div class="hero-media" aria-hidden="true">
+        <div class="hero-glow glow-1"></div>
+        <div class="hero-glow glow-2"></div>
+        <div class="hero-glow glow-3"></div>
+      </div>
+
       <div class="hero-layout">
         <div class="hero-copy">
-          <p class="hero-kicker reveal">Open to PhD &amp; research roles · Clinical AI · Neuroimaging</p>
-          <p class="hero-brand reveal delay-1">Shirin Rajabpour</p>
-          <h1 class="reveal delay-2">Biomedical engineer building ML for medical imaging and brain development</h1>
-          <p class="hero-lead reveal delay-3">
-            M.Sc. in Biomedical Engineering (Bioelectric). Experienced in infant MRI graph analysis,
-            EEG/MEG methods, and deep learning for clinical imaging.
+          <p class="hero-kicker">Biomedical Engineering · Clinical AI</p>
+          <p class="hero-brand">Shirin Rajabpour</p>
+          <h1>Turning brain signals into insight</h1>
+          <p class="hero-lead">
+            I build careful AI and imaging pipelines for medical research — from infant MRI brain mapping to EEG analysis.
           </p>
-          <div class="hero-actions reveal delay-3">
-            <a class="btn btn-primary" href="assets/Shirin-Rajabpour-CV.pdf" download>Download CV</a>
-            <a class="btn btn-ghost" href="#research">Research interests</a>
-            <a class="btn btn-ghost" href="#contact">Contact</a>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore my work</a>
+            <a class="btn btn-ghost" href="assets/Shirin-Rajabpour-CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+            <a class="btn btn-ghost" href="#contact">Say hello</a>
           </div>
         </div>
 
-        <div class="hero-portrait reveal delay-2">
+        <div class="hero-portrait">
           <img
             src="assets/shirin.jpg"
             alt="Portrait of Shirin Rajabpour"
-            width="520"
-            height="650"
+            width="800"
+            height="800"
+            loading="eager"
           />
         </div>
       </div>
@@ -60,62 +65,34 @@
     <section class="section about" id="about">
       <div class="section-inner">
         <p class="eyebrow reveal">About</p>
-        <h2 class="reveal">Research profile</h2>
+        <h2 class="reveal">Curious mind. Careful science.</h2>
         <div class="about-grid">
           <div class="about-text reveal">
             <p>
-              I am a biomedical engineer with an M.Sc. in Biomedical Engineering – Bioelectric from
-              K. N. Toosi University of Technology (GPA 17.75/20). My work sits at the intersection of
-              medical imaging, machine learning, and neuroinformatics.
+              Welcome — I’m Shirin, a biomedical engineer with an M.Sc. in Biomedical Engineering (Bioelectric)
+              from K. N. Toosi University of Technology. I’m passionate about where biomedical research meets
+              computer science, and about tools that can meaningfully improve healthcare.
             </p>
             <p>
-              In my thesis, I modeled neonatal development of perisylvian regions using graph analysis
-              of structural covariance networks from infant structural MRI (ages 0–24 months). I am seeking
-              PhD and research opportunities in clinical AI, developmental neuroimaging, and biosignal analysis.
+              My thesis modeled neonatal development of perisylvian regions using graph analysis of structural
+              covariance networks from infant structural MRI (ages 0–24 months), exploring patterns of healthy
+              early brain development.
             </p>
           </div>
-          <aside class="fit-box reveal">
-            <h3>Currently seeking</h3>
-            <ul>
-              <li>PhD positions in neuroimaging / clinical AI / biomedical ML</li>
-              <li>Research assistant or research engineer roles in medical imaging</li>
-              <li>Collaborations on MRI, EEG/MEG, and healthcare ML pipelines</li>
-            </ul>
-          </aside>
+          <ul class="interest-list reveal">
+            <li>Deep learning for medical imaging &amp; clinical AI</li>
+            <li>Neuroimaging &amp; developmental brain mapping</li>
+            <li>Graph analysis of structural brain connectivity</li>
+            <li>EEG/MEG analysis &amp; source modeling</li>
+            <li>Pattern recognition &amp; ML for healthcare data</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <section class="section research" id="research">
+    <section class="section path" id="resume">
       <div class="section-inner">
-        <p class="eyebrow reveal">Research</p>
-        <h2 class="reveal">Interests &amp; selected outcomes</h2>
-        <ul class="interest-list reveal">
-          <li>Deep learning for medical imaging and clinical AI</li>
-          <li>Neuroimaging and developmental brain mapping</li>
-          <li>Graph analysis of structural brain connectivity</li>
-          <li>EEG/MEG analysis and source modeling</li>
-          <li>Pattern recognition and ML for healthcare data</li>
-        </ul>
-
-        <div class="pub-grid">
-          <article class="pub-card reveal">
-            <span class="work-meta">Manuscript in preparation</span>
-            <h3>Neonatal perisylvian SCN development</h3>
-            <p>Rajabpour, S., Moghaddam, H.A. — graph analysis of structural covariance networks from infant MRI.</p>
-          </article>
-          <article class="pub-card reveal">
-            <span class="work-meta">Manuscript in preparation</span>
-            <h3>Kidney tumor 3D CNN classification</h3>
-            <p>Rajabpour, S. et al. — tumor mask and masked-CT fusion for 3D CNN classification of kidney tumors.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section path" id="experience">
-      <div class="section-inner">
-        <p class="eyebrow reveal">Experience</p>
+        <p class="eyebrow reveal">Resume</p>
         <h2 class="reveal">Education, research, and teaching</h2>
 
         <div class="path-grid">
@@ -135,8 +112,8 @@
             </div>
           </div>
 
-          <div class="path-card accent-card reveal">
-            <h3>Honors &amp; credentials</h3>
+          <div class="path-card reveal accent-card">
+            <h3>Honors &amp; more</h3>
             <ul>
               <li>Best Seminar Award in Medical Engineering, K. N. Toosi (Oct 2023)</li>
               <li>Top 2% of ~14,000 candidates — national M.Sc. entrance exam (2020)</li>
@@ -150,16 +127,18 @@
 
         <div class="resume-block reveal">
           <h3>Research experience</h3>
-          <article class="resume-item">
-            <span class="work-meta">Oct 2020 – Sep 2024 · Machine Vision &amp; Medical Image Processing Laboratory</span>
-            <strong>Research Assistant · K. N. Toosi University of Technology</strong>
-            <ul class="bullet-list">
-              <li>Conducted thesis research on neonatal perisylvian development using graph analysis of structural covariance networks from infant structural MRI (0–24 months), with NetworkX and neuroinformatics tools</li>
-              <li>Developed and evaluated machine learning and deep learning approaches for medical image analysis</li>
-              <li>Collaborated across medical imaging, neuroinformatics, and ML; contributed to manuscript preparation</li>
-              <li>Assisted in supervising undergraduate students in the laboratory</li>
-            </ul>
-          </article>
+          <div class="resume-list">
+            <article class="resume-item">
+              <span class="work-meta">Oct 2020 – Sep 2024 · Machine Vision &amp; Medical Image Processing Laboratory</span>
+              <strong>Research Assistant · K. N. Toosi University of Technology</strong>
+              <p>
+                Led M.Sc. thesis research on neonatal perisylvian development with graph analysis of structural
+                covariance networks from infant MRI, using NetworkX and related neuroinformatics tools. Developed
+                and evaluated ML/DL methods for medical image analysis; collaborated across imaging, neuroinformatics,
+                and machine learning; contributed to manuscript preparation; assisted in supervising undergraduate students.
+              </p>
+            </article>
+          </div>
         </div>
 
         <div class="resume-block reveal">
@@ -168,12 +147,12 @@
             <article class="resume-item">
               <span class="work-meta">Sep 2023 – Jan 2025 · Dr. Ali Khadem</span>
               <strong>Teaching Assistant · Medical Imaging Systems</strong>
-              <p>Homework support, lecture notes, grading, student meetings, and exam question design.</p>
+              <p>Assisted with homework, organized lecture notes, graded assignments, held student meetings, and designed exam questions.</p>
             </article>
             <article class="resume-item">
               <span class="work-meta">Feb 2023 – Jun 2023 · Dr. H. A. Moghaddam</span>
               <strong>Teaching Assistant · Digital Image Processing</strong>
-              <p>Graded homework for the graduate course.</p>
+              <p>Graded homework assignments for the graduate course.</p>
             </article>
             <article class="resume-item">
               <span class="work-meta">Feb 2023 – Jun 2023 · Dr. H. A. Moghaddam</span>
@@ -183,15 +162,30 @@
           </div>
         </div>
 
+        <div class="resume-block reveal">
+          <h3>Publications</h3>
+          <div class="resume-list">
+            <article class="resume-item">
+              <span class="work-meta">Manuscript in preparation</span>
+              <strong>Rajabpour, S., Moghaddam, H.A.</strong>
+              <p>“Modeling the Neonatal Development of Perisylvian Regions Using Graph Analysis of Structural Covariance Networks.”</p>
+            </article>
+            <article class="resume-item">
+              <span class="work-meta">Manuscript in preparation</span>
+              <strong>Rajabpour, S. et al.</strong>
+              <p>“Tumor Mask and Masked CT Fusion for 3D CNN Classification of Kidney Tumors.”</p>
+            </article>
+          </div>
+        </div>
+
         <div class="skills reveal">
           <h3>Technical skills</h3>
           <div class="skill-chips">
             <span>Python</span><span>MATLAB</span><span>PyTorch</span><span>TensorFlow</span>
-            <span>Keras</span><span>scikit-learn</span><span>OpenCV</span><span>NetworkX</span>
-            <span>Brainstorm</span><span>EEGLAB</span><span>SQL</span><span>Git</span>
-            <span>Linux</span><span>LaTeX</span>
+            <span>OpenCV</span><span>NetworkX</span><span>Brainstorm</span><span>scikit-learn</span>
+            <span>SQL</span><span>Git</span><span>Linux</span><span>LaTeX</span>
           </div>
-          <p class="skills-extra">Also: GRETNA, GraphVar, Power BI, NumPy, Pandas, Matplotlib, Seaborn, C++, C#, Verilog, Proteus, PSpice</p>
+          <p class="skills-extra">Also: Keras, EEGLAB, GRETNA, GraphVar, Power BI, NumPy, Pandas, C++, C#, Verilog, Proteus, PSpice</p>
         </div>
       </div>
     </section>
@@ -199,48 +193,34 @@
     <section class="section work" id="projects">
       <div class="section-inner">
         <p class="eyebrow reveal">Projects</p>
-        <h2 class="reveal">Selected research projects</h2>
+        <h2 class="reveal">Work I’m proud of</h2>
 
         <div class="work-list">
-          <article class="work-item featured reveal">
-            <span class="work-tag">Thesis / featured</span>
-            <span class="work-meta">Jan 2023 – Jan 2025 · Python · PyTorch · NetworkX · Medical Imaging</span>
+          <article class="work-item reveal">
+            <span class="work-tag">Featured</span>
+            <span class="work-meta">Jan 2023 – Jan 2025 · Python · PyTorch · NetworkX</span>
             <h3>Infant Brain Development Analysis</h3>
-            <p><strong>Problem:</strong> Characterize healthy early development of perisylvian regions from infant structural MRI.</p>
-            <p><strong>Method:</strong> Built a graph-analysis framework for structural covariance networks across 200+ infant MRI scans (ages 0–24 months) and applied ML methods for developmental analysis.</p>
-            <p><strong>Role:</strong> End-to-end research design, implementation, evaluation, and manuscript preparation.</p>
+            <p>Graph-analysis framework for structural covariance networks in early brain maturation across 200+ infant MRI scans; applied ML methods to neuroimaging-based developmental analysis.</p>
           </article>
-
           <article class="work-item reveal">
             <span class="work-meta">Manuscript in preparation · Deep Learning · CT</span>
             <h3>Tumor Mask &amp; Masked-CT Fusion for 3D CNN</h3>
-            <p><strong>Problem:</strong> Improve kidney tumor classification from CT volumes.</p>
-            <p><strong>Method:</strong> 3D CNN pipeline using tumor-mask and masked-CT fusion.</p>
-            <p><strong>Role:</strong> Model design and experimental evaluation (collaborative manuscript).</p>
+            <p>3D CNN classification of kidney tumors using tumor-mask and masked-CT fusion.</p>
           </article>
-
           <article class="work-item reveal">
-            <span class="work-meta">Mar–Jul 2022 · MATLAB · Brainstorm · Dr. Ali Khadem</span>
+            <span class="work-meta">Mar 2022 – Jul 2022 · MATLAB · Brainstorm · Dr. Ali Khadem</span>
             <h3>EEG / MEG Source Analysis</h3>
-            <p><strong>Problem:</strong> Localize neural sources from electrophysiology recordings.</p>
-            <p><strong>Method:</strong> Implemented and evaluated forward and inverse EEG/MEG methods in Brainstorm.</p>
-            <p><strong>Role:</strong> Analysis pipeline and method comparison for coursework research.</p>
+            <p>Analyzed electrophysiology data in Brainstorm for source localization; implemented and evaluated forward and inverse EEG/MEG methods.</p>
           </article>
-
           <article class="work-item reveal">
-            <span class="work-meta">Jan–Jul 2022 · Python · MATLAB · Dr. Ali Khadem</span>
+            <span class="work-meta">Jan 2022 – Jul 2022 · Python · MATLAB · Dr. Ali Khadem</span>
             <h3>EEG Signal Classification</h3>
-            <p><strong>Problem:</strong> Discriminate focal vs non-focal EEG activity.</p>
-            <p><strong>Method:</strong> Entropy-based features in the EMD–DWT domain on 10,000+ EEG segments.</p>
-            <p><strong>Role:</strong> Feature extraction, classification, and evaluation.</p>
+            <p>Entropy-based feature extraction in the EMD–DWT domain for focal versus non-focal EEG discrimination on 10,000+ segments.</p>
           </article>
-
           <article class="work-item reveal">
             <span class="work-meta">Jan 2021 – Jan 2022 · Python · SVM · Neural Networks</span>
             <h3>Breast Cancer Prediction Models</h3>
-            <p><strong>Problem:</strong> Predict breast cancer labels from tabular clinical features.</p>
-            <p><strong>Method:</strong> SVM ensembles, Bayes MLE, and neural network models on the Wisconsin dataset.</p>
-            <p><strong>Role:</strong> Model development and comparison across two graduate courses.</p>
+            <p>SVM ensembles and Bayes MLE on the Wisconsin dataset; neural network models for breast cancer detection (Pattern Recognition, Dr. H. A. Moghaddam; Neural Networks, Dr. M. Teshnehlab).</p>
           </article>
         </div>
 
@@ -249,42 +229,69 @@
           <ul>
             <li>Temperature prediction using RBF networks — Neural Networks, Dr. Mohammad Teshnehlab (Fall 2021)</li>
             <li>Lighting exposure improvement — Digital Image Processing, Dr. H. A. Moghaddam (Summer 2021)</li>
-            <li>Non-coherent receiver design &amp; simulation — Telecommunication Circuits, Yazd University (Summer 2019)</li>
-            <li>FPGA vending machine · C# dentistry insurance app · game projects — Yazd University (2017–2018)</li>
+            <li>Design &amp; simulation of a non-coherent receiver — Telecommunication Circuits, Yazd University (Summer 2019)</li>
+            <li>Vending machine (FPGA) — Yazd University (Summer 2018)</li>
+            <li>C# dentistry insurance application · Snake &amp; Color Ballz games — Yazd University (Winter 2017)</li>
           </ul>
         </details>
       </div>
     </section>
 
     <section class="section contact" id="contact">
-      <div class="section-inner contact-panel reveal">
-        <p class="eyebrow">Contact</p>
-        <h2>Let’s discuss opportunities</h2>
-        <p class="contact-lead">
-          I welcome conversations about PhD openings, research collaborations, and roles in medical imaging / neuroimaging ML.
-        </p>
-        <div class="contact-details">
-          <a class="contact-row" href="mailto:rajabpourshirin@gmail.com">
-            <span class="contact-label">Email</span>
-            <span>rajabpourshirin@gmail.com</span>
-          </a>
-          <a class="contact-row" href="tel:+989051061353">
-            <span class="contact-label">Phone</span>
-            <span>+98 (905) 106-1353</span>
-          </a>
+      <div class="section-inner contact-layout">
+        <div class="contact-panel reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Looking forward to hearing from you</h2>
+          <p class="contact-lead">
+            Open to research collaborations and roles in medical imaging, neuroimaging, and clinical AI.
+          </p>
+          <div class="contact-actions">
+            <a class="btn btn-primary" href="assets/Shirin-Rajabpour-CV.pdf" target="_blank" rel="noopener noreferrer">Download CV</a>
+            <a class="btn btn-ghost" href="mailto:rajabpourshirin@gmail.com">Email</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/shirinrajabpour/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn btn-ghost" href="https://github.com/srajp-del" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
         </div>
-        <div class="contact-actions">
-          <a class="btn btn-primary" href="assets/Shirin-Rajabpour-CV.pdf" download>Download CV</a>
-          <a class="btn btn-ghost" href="mailto:rajabpourshirin@gmail.com">Email</a>
-          <a class="btn btn-ghost" href="https://www.linkedin.com/in/shirinrajabpour/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-          <a class="btn btn-ghost" href="https://github.com/srajp-del" target="_blank" rel="noopener noreferrer">GitHub</a>
+
+        <div class="contact-solar-stage" aria-hidden="true">
+          <svg class="contact-solar" viewBox="0 0 640 640">
+            <defs>
+              <linearGradient id="contactStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#c45c4a"/>
+                <stop offset="55%" stop-color="#d47868"/>
+                <stop offset="100%" stop-color="#5a7a66"/>
+              </linearGradient>
+              <radialGradient id="contactCore" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#c45c4a" stop-opacity="0.7"/>
+                <stop offset="60%" stop-color="#d47868" stop-opacity="0.25"/>
+                <stop offset="100%" stop-color="#5a7a66" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <circle cx="320" cy="320" r="100" fill="url(#contactCore)"/>
+            <circle cx="320" cy="320" r="250" fill="none" stroke="url(#contactStroke)" stroke-width="4"/>
+            <circle cx="320" cy="320" r="185" fill="none" stroke="url(#contactStroke)" stroke-width="5"/>
+            <circle cx="320" cy="320" r="115" fill="none" stroke="url(#contactStroke)" stroke-width="6"/>
+            <g stroke="url(#contactStroke)" stroke-width="2.5" fill="none">
+              <path d="M90 360 C170 220, 230 480, 340 340 C430 230, 500 450, 580 350"/>
+              <path d="M120 180 C210 230, 190 380, 320 300 C450 220, 410 140, 540 170"/>
+            </g>
+            <g fill="#c45c4a">
+              <circle cx="120" cy="180" r="9"/>
+              <circle cx="320" cy="300" r="11"/>
+              <circle cx="540" cy="170" r="8"/>
+              <circle cx="340" cy="340" r="10"/>
+              <circle cx="580" cy="350" r="8"/>
+              <circle cx="90" cy="360" r="8"/>
+              <circle cx="320" cy="320" r="14"/>
+            </g>
+          </svg>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© <span data-year></span> Shirin Rajabpour · Biomedical Engineering &amp; Clinical AI</p>
+    <p>© <span data-year></span> Shirin Rajabpour</p>
   </footer>
 
   <script src="script.js"></script>

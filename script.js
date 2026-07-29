@@ -43,7 +43,7 @@ if ("IntersectionObserver" in window) {
         }
       });
     },
-    { threshold: 0.16, rootMargin: "0px 0px -8% 0px" }
+    { threshold: 0.1, rootMargin: "0px 0px -5% 0px" }
   );
 
   reveals.forEach((el) => observer.observe(el));
