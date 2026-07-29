@@ -7,7 +7,7 @@
   <title>Shirin Rajabpour</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700;9..144,800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -29,20 +29,42 @@
   <main id="main">
     <section class="hero" id="top">
       <div class="hero-media" aria-hidden="true">
-        <div class="hero-orb hero-orb-a"></div>
-        <div class="hero-orb hero-orb-b"></div>
-        <div class="hero-rings"></div>
+        <div class="hero-glow glow-1"></div>
+        <div class="hero-glow glow-2"></div>
+        <div class="hero-glow glow-3"></div>
+        <svg class="hero-art" viewBox="0 0 640 720" preserveAspectRatio="xMidYMid slice">
+          <defs>
+            <linearGradient id="warmStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#ff8f6b"/>
+              <stop offset="55%" stop-color="#ff5c7a"/>
+              <stop offset="100%" stop-color="#6ec8b8"/>
+            </linearGradient>
+          </defs>
+          <circle cx="360" cy="280" r="170" fill="none" stroke="url(#warmStroke)" stroke-width="1.5" opacity="0.55"/>
+          <circle cx="360" cy="280" r="118" fill="none" stroke="url(#warmStroke)" stroke-width="2" opacity="0.45"/>
+          <circle cx="360" cy="280" r="64" fill="none" stroke="url(#warmStroke)" stroke-width="3" opacity="0.7"/>
+          <g stroke="url(#warmStroke)" stroke-width="1.4" fill="none" opacity="0.55">
+            <path d="M180 420 C240 320, 300 500, 390 390 C460 310, 500 470, 560 400"/>
+            <path d="M210 180 C290 220, 250 340, 360 300 C470 250, 430 160, 520 190"/>
+          </g>
+          <g fill="#ff7a59">
+            <circle cx="210" cy="180" r="6"/><circle cx="360" cy="300" r="8"/>
+            <circle cx="520" cy="190" r="5"/><circle cx="390" cy="390" r="7"/>
+            <circle cx="560" cy="400" r="5"/><circle cx="180" cy="420" r="5"/>
+          </g>
+        </svg>
       </div>
 
       <div class="hero-copy">
-        <p class="hero-brand reveal">Shirin Rajabpour</p>
-        <h1 class="reveal delay-1">Clinical AI &amp; neuroimaging research</h1>
-        <p class="hero-lead reveal delay-2">
-          Biomedical engineer working on medical imaging, developmental brain mapping, and biosignal analysis.
+        <p class="hero-kicker reveal">Biomedical Engineering · Clinical AI</p>
+        <p class="hero-brand reveal delay-1">Shirin Rajabpour</p>
+        <h1 class="reveal delay-2">Turning brain signals into insight</h1>
+        <p class="hero-lead reveal delay-3">
+          I build careful AI and imaging pipelines for medical research — from infant MRI brain mapping to EEG analysis.
         </p>
         <div class="hero-actions reveal delay-3">
-          <a class="btn btn-primary" href="#projects">View projects</a>
-          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+          <a class="btn btn-primary" href="#projects">Explore my work</a>
+          <a class="btn btn-ghost" href="#contact">Say hello</a>
         </div>
       </div>
     </section>
@@ -50,18 +72,18 @@
     <section class="section about" id="about">
       <div class="section-inner">
         <p class="eyebrow reveal">About</p>
-        <h2 class="reveal">A bit about me</h2>
+        <h2 class="reveal">Curious mind. Careful science.</h2>
         <div class="about-grid">
           <div class="about-text reveal">
             <p>
               Welcome — I’m Shirin, a biomedical engineer with an M.Sc. in Biomedical Engineering (Bioelectric)
-              from K. N. Toosi University of Technology. I’m drawn to the intersection of biomedical research and
-              computer science, and to technologies that can improve healthcare.
+              from K. N. Toosi University of Technology. I’m passionate about where biomedical research meets
+              computer science, and about tools that can meaningfully improve healthcare.
             </p>
             <p>
               My thesis modeled neonatal development of perisylvian regions using graph analysis of structural
-              covariance networks from infant structural MRI (ages 0–24 months), to better understand patterns of
-              healthy early brain development.
+              covariance networks from infant structural MRI (ages 0–24 months), exploring patterns of healthy
+              early brain development.
             </p>
           </div>
           <ul class="interest-list reveal">
@@ -97,7 +119,7 @@
             </div>
           </div>
 
-          <div class="path-card reveal">
+          <div class="path-card reveal accent-card">
             <h3>Honors &amp; more</h3>
             <ul>
               <li>Best Seminar Award in Medical Engineering, K. N. Toosi (Oct 2023)</li>
@@ -165,12 +187,12 @@
 
         <div class="skills reveal">
           <h3>Technical skills</h3>
-          <p><strong>Programming:</strong> Python, MATLAB, SQL, C++, C#</p>
-          <p><strong>ML &amp; DL:</strong> PyTorch, TensorFlow, Keras, scikit-learn, LLM</p>
-          <p><strong>Imaging &amp; biosignals:</strong> OpenCV, SciPy, EEGLAB, Brainstorm</p>
-          <p><strong>Neuroinformatics:</strong> NetworkX, GRETNA, GraphVar</p>
-          <p><strong>Other:</strong> Power BI, NumPy, Pandas, Matplotlib, Seaborn, Git, LaTeX, Linux</p>
-          <p><strong>Also:</strong> Verilog, Proteus, PSpice · EndNote, Mendeley · Communication, Organization, Leadership</p>
+          <div class="skill-chips">
+            <span>Python</span><span>MATLAB</span><span>PyTorch</span><span>TensorFlow</span>
+            <span>OpenCV</span><span>NetworkX</span><span>Brainstorm</span><span>scikit-learn</span>
+            <span>SQL</span><span>Git</span><span>Linux</span><span>LaTeX</span>
+          </div>
+          <p class="skills-extra">Also: Keras, EEGLAB, GRETNA, GraphVar, Power BI, NumPy, Pandas, C++, C#, Verilog, Proteus, PSpice</p>
         </div>
       </div>
     </section>
@@ -178,11 +200,12 @@
     <section class="section work" id="projects">
       <div class="section-inner">
         <p class="eyebrow reveal">Projects</p>
-        <h2 class="reveal">Selected research &amp; coursework</h2>
+        <h2 class="reveal">Work I’m proud of</h2>
 
         <div class="work-list">
           <article class="work-item reveal">
-            <span class="work-meta">Jan 2023 – Jan 2025 · Python · PyTorch · NetworkX · Medical Imaging</span>
+            <span class="work-tag">Featured</span>
+            <span class="work-meta">Jan 2023 – Jan 2025 · Python · PyTorch · NetworkX</span>
             <h3>Infant Brain Development Analysis</h3>
             <p>Graph-analysis framework for structural covariance networks in early brain maturation across 200+ infant MRI scans; applied ML methods to neuroimaging-based developmental analysis.</p>
           </article>
@@ -213,22 +236,22 @@
           <ul>
             <li>Temperature prediction using RBF networks — Neural Networks, Dr. Mohammad Teshnehlab (Fall 2021)</li>
             <li>Lighting exposure improvement — Digital Image Processing, Dr. H. A. Moghaddam (Summer 2021)</li>
-            <li>Design &amp; simulation of a non-coherent receiver — Telecommunication Circuits, Dr. Mohammad Zoofaghari, Yazd University (Summer 2019)</li>
-            <li>Vending machine (FPGA) — Dr. Hadi Safdarkhani, Yazd University (Summer 2018)</li>
-            <li>C# dentistry insurance application · Snake &amp; Color Ballz games — Computer Programming, Yazd University (Winter 2017)</li>
+            <li>Design &amp; simulation of a non-coherent receiver — Telecommunication Circuits, Yazd University (Summer 2019)</li>
+            <li>Vending machine (FPGA) — Yazd University (Summer 2018)</li>
+            <li>C# dentistry insurance application · Snake &amp; Color Ballz games — Yazd University (Winter 2017)</li>
           </ul>
         </div>
       </div>
     </section>
 
     <section class="section contact" id="contact">
-      <div class="section-inner contact-inner">
-        <p class="eyebrow reveal">Contact</p>
-        <h2 class="reveal">Looking forward to hearing from you</h2>
-        <p class="contact-lead reveal">
+      <div class="section-inner contact-panel reveal">
+        <p class="eyebrow">Contact</p>
+        <h2>Looking forward to hearing from you</h2>
+        <p class="contact-lead">
           Open to research collaborations and roles in medical imaging, neuroimaging, and clinical AI.
         </p>
-        <div class="contact-details reveal">
+        <div class="contact-details">
           <a class="contact-row" href="mailto:rajabpourshirin@gmail.com">
             <span class="contact-label">Email</span>
             <span>rajabpourshirin@gmail.com</span>
@@ -238,7 +261,7 @@
             <span>+98 (905) 106-1353</span>
           </a>
         </div>
-        <div class="contact-actions reveal">
+        <div class="contact-actions">
           <a class="btn btn-primary" href="mailto:rajabpourshirin@gmail.com">Send an email</a>
           <a class="btn btn-ghost" href="https://www.linkedin.com/in/shirinrajabpour/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a class="btn btn-ghost" href="https://github.com/srajp-del" target="_blank" rel="noopener noreferrer">GitHub</a>
